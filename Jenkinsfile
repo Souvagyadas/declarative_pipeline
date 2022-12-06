@@ -28,8 +28,13 @@ pipeline {
                 echo "1"
             }
         }
-
         stage("Dev2") {
+            steps {
+                echo "Some tests execution here..."
+                echo "1"
+            }
+        }
+        stage("Dev3") {
             steps {
                 echo "Some tests execution here..."
                 echo "1"
