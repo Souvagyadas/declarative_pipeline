@@ -15,6 +15,13 @@ pipeline {
             }
         }
 
+        stage("Test") {
+            steps {
+                echo "Some tests execution here..."
+                echo "1"
+            }
+        }
+
         stage("Deploy") {
             steps {
                 echo "Some tests execution here..."
